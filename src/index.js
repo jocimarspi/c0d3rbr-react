@@ -1,7 +1,6 @@
 import ReactDOM from "react-dom";
+import './index.css';
 
-const tag = <strong>Olá React</strong>
+const tag = <strong>Olá React</strong>;
 
-ReactDOM.render(
-  <div>{tag}</div>,
-  document.getElementById("root"));
+ReactDOM.render(<div>{tag}</div>, document.getElementById("root"));
