@@ -1,0 +1,19 @@
+.products_table table {
+  width: 100%;
+}
+
+.products_table th {
+  background: #008b8b;
+}
+
+.products_table tr {
+  text-align: left;
+}
+
+.products_table .even {
+  background: #ddd
+}
+
+.products_table .odd {
+  background: #afafaf
+}

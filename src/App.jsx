@@ -7,6 +7,8 @@ import RandomNumber from "./components/basics/Random";
 import "./App.css";
 import Family from "./components/basics/Family";
 import FamilyMember from "./components/basics/FamilyMember";
+import StudentsList from "./components/repetition/StudentsList";
+import ProductsTable from "./components/repetition/ProductsTable";
 
 const App = () => {
   return (
@@ -14,11 +16,17 @@ const App = () => {
       <h1>React JS Fundamentals</h1>
 
       <div className="cards">
+        <Card title="#07 Products table challange" color="#645f11">
+          <ProductsTable />
+        </Card>
+        <Card title="#06 Students list" color="#335f11">
+          <StudentsList />
+        </Card>
         <Card title="#05 Family Member" color="#645fED">
           <Family lastname="Huss">
             <FamilyMember name="Pedro" />
             <FamilyMember name="Eduardo" />
-            <FamilyMember name="Marcelo"/>
+            <FamilyMember name="Marcelo" />
           </Family>
         </Card>
 
