@@ -9,6 +9,7 @@ import Family from "./components/basics/Family";
 import FamilyMember from "./components/basics/FamilyMember";
 import StudentsList from "./components/repetition/StudentsList";
 import ProductsTable from "./components/repetition/ProductsTable";
+import LotteryBetGenerator from "./components/lottery/LotteryBetGenerator";
 
 const App = () => {
   return (
@@ -16,6 +17,9 @@ const App = () => {
       <h1>React JS Fundamentals</h1>
 
       <div className="cards">
+        <Card title="#08 Lottery Bet Challange" color="#355f99">
+          <LotteryBetGenerator startNumber = {1} endNumber={60} numbersPerTicket={6} />
+        </Card>
         <Card title="#07 Products table challange" color="#645f11">
           <ProductsTable />
         </Card>

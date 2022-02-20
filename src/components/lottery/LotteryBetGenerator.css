@@ -1,0 +1,41 @@
+.lotterybetgenerator__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;  
+}
+
+.lotterybetgenerator__container .drawnball {
+  display: flex;
+  flex-direction: row;  
+  justify-content: left;
+  flex-wrap: wrap;
+
+}
+
+.lotterybetgenerator__container button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 0 none;
+  background-color: #098628;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.lotterybetgenerator__top_panel input {
+  width: 30px;
+}
+
+.lotterybetgenerator__container .drawnball .ball {
+  border: 3px solid rgb(164, 164, 252);
+  background-color: #0d0d72;
+  color: white;
+  margin: 0px 10px 5px 0;
+  font-size: 24pt;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
